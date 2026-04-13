@@ -11,7 +11,7 @@ const links = [
 ];
 
 const socials = [
-  { label: "GitHub", href: "https://github.com/tonprofil" },
+  { label: "GitHub", href: "https://github.com/FarhaneXDev" },
   { label: "LinkedIn", href: "https://linkedin.com/in/tonprofil" },
 ];
 
@@ -32,14 +32,14 @@ const Footer = () => {
               Farhane <span className="text-[#25a244]">X</span>
             </h2>
             <p className="text-white/40 text-sm leading-relaxed">
-              Développeur Full Stack basé en ligne. Je construis des produits
-              web fiables, de la base de données à l'interface.
+              Développeur Full Stack passionné, Je construis des produits
+              web fiables, de l'idée à sa matérialisation.
             </p>
             <a
               href="mailto:tonemail@gmail.com"
-              className="text-[#25a244] text-sm hover:underline underline-offset-4 transition w-fit"
+              className="text-[#25a244] text-sm hover:text-white/70 duration-500 underline-offset-4 transition w-fit"
             >
-              tonemail@gmail.com
+              devlifeoffarhane@gmail.com
             </a>
           </motion.div>
 

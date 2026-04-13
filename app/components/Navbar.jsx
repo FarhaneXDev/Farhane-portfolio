@@ -78,7 +78,7 @@ const Navbar = () => {
           </span>
         </button>
         {/* Mobile Menu */}
-        <div onClick={openMenu} className="xs:flex md:hidden">
+        <div onClick={openMenu} className="flex md:hidden">
           <Menu className="cursor-pointer shrink-0 text-white" />
         </div>
       </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
       {/* Mobile Side Bar */}
       <ul
         ref={sideMenuRef}
-        className="flex text-white flex-col md:hidden z-20 py-24 px-6 fixed gap-6 right-0 top-0 bottom-0 w-64 max-w-xs backdrop-blur-xl bg-white/10 border-l border-white/10 transition duration-500 translate-x-full"
+        className="flex text-white flex-col z-20 py-24 px-6 fixed gap-6 right-0 top-0 bottom-0 w-64 max-w-xs backdrop-blur-xl bg-white/10 border-l border-white/10 transition duration-500 translate-x-full"
         style={{ height: "100dvh" }}
       >
         <div className="absolute right-6 top-6" onClick={closeMenu}>

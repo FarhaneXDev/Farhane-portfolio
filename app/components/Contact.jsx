@@ -47,18 +47,18 @@ const Contact = () => {
             {[
               {
                 label: "Email",
-                value: "tonemail@gmail.com",
-                href: "mailto:tonemail@gmail.com",
+                value: "devlifeoffarhane@proton.me",
+                href: "mailto:devlifeoffarhane@proton.me",
               },
               {
                 label: "LinkedIn",
                 value: "linkedin.com/in/tonprofil",
-                href: "https://linkedin.com",
+                href: "https://linkedin.com/",
               },
               {
                 label: "GitHub",
-                value: "github.com/tonprofil",
-                href: "https://github.com",
+                value: "https://github.com/FarhaneXDev",
+                href: "https://github.com/FarhaneXDev",
               },
             ].map(({ label, value, href }) => (
               <div key={label} className="flex flex-col gap-1">

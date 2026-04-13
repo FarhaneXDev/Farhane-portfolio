@@ -62,10 +62,8 @@ const Projects = () => {
   return (
     <section className="py-12 sm:py-24 px-4 sm:px-6 md:px-[10%] text-white w-full">
       <div className="max-w-6xl mx-auto">
-
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-14">
-
           <motion.h2
             initial={{ opacity: 0, y: 18 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -83,9 +81,9 @@ const Projects = () => {
             transition={{ delay: 0.1, duration: 0.7, ease: "easeOut" }}
             className="text-white/50 max-w-sm text-sm md:text-right"
           >
-            Des produits livrés, pas des démos. Chaque projet ici a tourné en production.
+            Des produits livrés, pas des démos. Chaque projet ici a tourné en
+            production.
           </motion.p>
-
         </div>
 
         {/* GRID */}
